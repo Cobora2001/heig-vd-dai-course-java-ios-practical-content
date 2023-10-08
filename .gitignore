@@ -39,3 +39,6 @@ Thumbs.db
 
 # Folder config file
 [Dd]esktop.ini
+
+# Ressources folder
+src/test/resources/
