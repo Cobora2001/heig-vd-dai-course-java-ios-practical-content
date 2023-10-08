@@ -1,0 +1,109 @@
+---------------------- 1 bytes ----------------------
+====================== Buffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 1 bytes to .\src\test\resources\binary_1B.bin with a buffered stream...
+Elapsed time: 0ms / 731700ns
+Reading .\src\test\resources\binary_1B.bin with a buffered stream...
+Elapsed time: 0ms / 258800ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 1 bytes to .\src\test\resources\text_1B.txt with a buffered stream...
+Elapsed time: 0ms / 757100ns
+Reading .\src\test\resources\text_1B.txt with a buffered stream...
+Elapsed time: 0ms / 549500ns
+
+
+====================== Unbuffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 1 bytes to .\src\test\resources\binary_1B.bin with a non-buffered stream...
+Elapsed time: 0ms / 398200ns
+Reading .\src\test\resources\binary_1B.bin with a non-buffered stream...
+Elapsed time: 0ms / 142600ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 1 bytes to .\src\test\resources\text_1B.txt with a non-buffered stream...
+Elapsed time: 0ms / 492800ns
+Reading .\src\test\resources\text_1B.txt with a non-buffered stream...
+Elapsed time: 0ms / 156600ns
+
+
+
+---------------------- 1024 bytes ----------------------
+====================== Buffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 1024 bytes to .\src\test\resources\binary_1024B.bin with a buffered stream...
+Elapsed time: 0ms / 620600ns
+Reading .\src\test\resources\binary_1024B.bin with a buffered stream...
+Elapsed time: 0ms / 238600ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 1024 bytes to .\src\test\resources\text_1024B.txt with a buffered stream...
+Elapsed time: 2ms / 2027500ns
+Reading .\src\test\resources\text_1024B.txt with a buffered stream...
+Elapsed time: 0ms / 335600ns
+
+
+====================== Unbuffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 1024 bytes to .\src\test\resources\binary_1024B.bin with a non-buffered stream...
+Elapsed time: 3ms / 3176900ns
+Reading .\src\test\resources\binary_1024B.bin with a non-buffered stream...
+Elapsed time: 2ms / 2777300ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 1024 bytes to .\src\test\resources\text_1024B.txt with a non-buffered stream...
+Elapsed time: 1ms / 1987200ns
+Reading .\src\test\resources\text_1024B.txt with a non-buffered stream...
+Elapsed time: 1ms / 1006600ns
+
+
+
+---------------------- 1048576 bytes ----------------------
+====================== Buffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 1048576 bytes to .\src\test\resources\binary_1048576B.bin with a buffered stream...
+Elapsed time: 10ms / 10386400ns
+Reading .\src\test\resources\binary_1048576B.bin with a buffered stream...
+Elapsed time: 20ms / 20951500ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 1048576 bytes to .\src\test\resources\text_1048576B.txt with a buffered stream...
+Elapsed time: 16ms / 16969800ns
+Reading .\src\test\resources\text_1048576B.txt with a buffered stream...
+Elapsed time: 24ms / 24351300ns
+
+
+====================== Unbuffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 1048576 bytes to .\src\test\resources\binary_1048576B.bin with a non-buffered stream...
+Elapsed time: 2146ms / 2146755200ns
+Reading .\src\test\resources\binary_1048576B.bin with a non-buffered stream...
+Elapsed time: 1183ms / 1183049400ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 1048576 bytes to .\src\test\resources\text_1048576B.txt with a non-buffered stream...
+Elapsed time: 54ms / 54213000ns
+Reading .\src\test\resources\text_1048576B.txt with a non-buffered stream...
+Elapsed time: 39ms / 39114500ns
+
+
+
+---------------------- 5242880 bytes ----------------------
+====================== Buffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 5242880 bytes to .\src\test\resources\binary_5242880B.bin with a buffered stream...
+Elapsed time: 95ms / 95377500ns
+Reading .\src\test\resources\binary_5242880B.bin with a buffered stream...
+Elapsed time: 93ms / 93186700ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 5242880 bytes to .\src\test\resources\text_5242880B.txt with a buffered stream...
+Elapsed time: 121ms / 121283500ns
+Reading .\src\test\resources\text_5242880B.txt with a buffered stream...
+Elapsed time: 96ms / 96869100ns
+
+
+====================== Unbuffered ======================
+++++++++++++++++++++++ Binary ++++++++++++++++++++++
+Writing 5242880 bytes to .\src\test\resources\binary_5242880B.bin with a non-buffered stream...
+Elapsed time: 10861ms / 10861482300ns
+Reading .\src\test\resources\binary_5242880B.bin with a non-buffered stream...
+Elapsed time: 6033ms / 6033020500ns
+++++++++++++++++++++++ Text ++++++++++++++++++++++
+Writing 5242880 bytes to .\src\test\resources\text_5242880B.txt with a non-buffered stream...
+Elapsed time: 123ms / 123299500ns
+Reading .\src\test\resources\text_5242880B.txt with a non-buffered stream...
+Elapsed time: 117ms / 117402500ns
